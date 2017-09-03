@@ -4,7 +4,7 @@ require 'net/http'
 require 'json'
 
 # Declare trigger
-trigger=1
+trigger=75
 
 url_memory = URI("http://128.199.146.146:9090/api/v1/query?query=(((node_memory_MemTotal{}%20-%20node_memory_MemFree{}%20)%20/%20(node_memory_MemTotal{%20})%20)*%20100)%20%3E=%20#{trigger}")
 
