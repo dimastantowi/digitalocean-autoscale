@@ -4,10 +4,10 @@ require 'net/http'
 require 'json'
 
 # Declare trigger
-$trigger = 2
+$trigger = 80
 
 # Minutes
-$minutes = 1
+$minutes = 5
 
 # Class stage
 class Stage
